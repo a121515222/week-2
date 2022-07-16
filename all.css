@@ -123,6 +123,7 @@ a:hover{
   background: #000;
 }
 .banner{
+  height: 100vh;
   background: url("./asset/picture/banner.png");
   background-size: cover;
   background-position: center;
