@@ -134,14 +134,19 @@ a:hover{
   width: 384px;
   border-bottom: 1px solid #000;
 }
-.workExp span {
+.workExp p {
   display: inline-block;
-  vertical-align: middle;
+}
+
+.workExp li::before{
+  content:'';
+  display: inline-block;
   height: 22px;
   width: 22px;
   background:var(--primary);
   border-radius: 50%;
   margin-right: 16px;
+  vertical-align: middle;
 }
 .sns a:hover{
  outline: 2px solid var(--primary);
@@ -210,4 +215,7 @@ a:hover{
 }
 .ms-24{
   margin-left: 24px;
+}
+.fs-24{
+  font-size: 24px;
 }
